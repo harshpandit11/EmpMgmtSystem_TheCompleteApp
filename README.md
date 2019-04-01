@@ -24,3 +24,9 @@ whether RED/Green. It gives a picture that nothing was covered but in fact all o
 
 I think the following limitations is causing the problem. This limitation is also mentioned by Jetbrains for their dotcover tool which we are using now.
 
+The original code files have not been changed between the builds. Same
+functions are on same lines and functions end on same lines. Only the conditional
+compilation and macro expansions have changed the code as ctc sees it.
+.
+In the participating builds the code has been instrumented in the same way. Also
+at ctcpost time the XML reports are obtained with same “coverage view”.
