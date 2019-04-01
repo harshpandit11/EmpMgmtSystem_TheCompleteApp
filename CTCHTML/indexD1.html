@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>CTC++ Coverage Report - Execution Profile - Program.cs</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keyword" content="CTC++, Testwell, Test Coverage Analyzer">
+<meta name="date" content="Mon Apr 1 15:55:36 2019">
+<meta name="generator" content="Testwell CTC++ add-on utility ctc2html v6.0">
+<link href="index.html" rel="contents">
+<link href="ctc.css" rel="stylesheet" type="text/css">
+<script src="ctc.js" type="text/javascript"></script>
+<script src="sorttable.js" type="text/javascript"></script>
+<script src="own_javascript.js" type="text/javascript"></script>
+</head>
+<body>
+<span class="reportb">CTC++ Coverage Report</span><span class="report">- Execution Profile</span><span class="info">#1/5</span><br><br>
+<span class="pages"><a href="indexF.html" target="_top">Directory Summary</a> | <a href="index.html" target="_top">Files Summary</a> | <a href="indexB1.html" target="_top">Functions Summary</a> | <a href="indexU.html" target="_top">Untested Code</a> | <a href="indexD1.html">Execution Profile</a><br>
+To files: <a href="indexD1.html">First</a> | Previous | <a href="indexD2.html">Next</a> | <a href="indexD5.html">Last</a> | <a href="indexA.html#a1">Index</a> | <a href="indexD1.html" target="_top">No Index</a></span><br><br>
+<span class="infob">Source file:</span><span class="infob">C:\Dotcover_TestApplication\EmployeeMgmtSystem\EmployeeMgmtSystem\Program.cs</span><br>
+<span class="infob">Instrumentation mode:</span><span class="info">multicondition</span><br>
+<span class="infob">TER:</span><span class="below">64 % (7/11) structural,</span><span class="below">80 % (12/15) statement</span><br><br>
+<table class="execution">
+<thead>
+<tr><th>Hits/True</th><th>False</th><th><a href="indexD1.html#ut1" title="First untested">Line</a></th><th>Source</th></tr>
+</thead>
+<tbody>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">1</td><td><span class="lineplain">﻿<span class="keyword">using</span>&nbsp;System;</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">2</td><td><span class="lineplain"><span class="keyword">using</span>&nbsp;System.Collections.Generic;</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">3</td><td><span class="lineplain"><span class="keyword">using</span>&nbsp;System.Linq;</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">4</td><td><span class="lineplain"><span class="keyword">using</span>&nbsp;System.Text;</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">5</td><td><span class="lineplain"><span class="keyword">using</span>&nbsp;System.Threading.Tasks;</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">6</td><td><span class="lineplain"></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">7</td><td><span class="lineplain"><span class="keyword">namespace</span>&nbsp;EmployeeMgmtSystem</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">8</td><td><span class="lineplain">{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">9</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">public</span>&nbsp;<span class="keyword">enum</span>&nbsp;EmpDesignations</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">10</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">11</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AssociateEngineer=1,</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">12</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Engineer=2,</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">13</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SrEngineer=3,</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">14</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EXpertEngineer=4,</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">15</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Manager=5,</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">16</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fresher&nbsp;=&nbsp;6</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">17</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">18</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">public</span>&nbsp;<span class="keyword">class</span>&nbsp;Employee</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">19</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">20</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">public</span>&nbsp;<span class="keyword">int</span>&nbsp;EmpId&nbsp;{&nbsp;get;&nbsp;set;&nbsp;}</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">21</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">public</span>&nbsp;string&nbsp;EmpName&nbsp;{&nbsp;get;&nbsp;set;&nbsp;}</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">22</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">public</span>&nbsp;<span class="keyword">double</span>&nbsp;EmpSalary&nbsp;{&nbsp;get;&nbsp;set;&nbsp;}</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">23</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">public</span>&nbsp;string&nbsp;EmpAddress&nbsp;{&nbsp;get;&nbsp;set;&nbsp;}</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">24</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">public</span>&nbsp;string&nbsp;EmpDesignation&nbsp;{&nbsp;get;&nbsp;set;&nbsp;}</span></td></tr>
+<tr><td class="top" colspan="4"><a href="indexD1.html" title="C:\Dotcover_TestApplication\EmployeeMgmtSystem\EmployeeMgmtSystem\Program.cs">Top</a></td></tr>
+<tr><td class="profile"><a name="a1"></a>1</td><td class="profile"></td><td class="profile_line">25</td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">public</span>&nbsp;<span class="keyword">void</span>&nbsp;GetEmpDesignation(<span class="keyword">double</span>&nbsp;EmpSal)</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">26</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">27</td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine(<span class="string">"Now&nbsp;let&nbsp;us&nbsp;find&nbsp;out&nbsp;EmpDesignation&nbsp;as&nbsp;per&nbsp;Salary&nbsp;slab"</span>);</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">28</td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.ReadLine();</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">29</td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;empdesgnation1&nbsp;=&nbsp;EmpDesignations.Fresher;</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">30</td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;empdesgnation&nbsp;=&nbsp;EmpDesignations.AssociateEngineer;</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">31</td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;empdesignation5&nbsp;=&nbsp;EmpDesignations.EXpertEngineer;</span></td></tr>
+<tr><td class="tcolnhit"> 0</td><td class="profile"> 1</td><td class="profile_line"><a href="indexD1.html#ut2" name="ut1">32</a></td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">if</span>&nbsp;(EmpSal&nbsp;&gt;=&nbsp;2000&nbsp;&amp;&amp;&nbsp;EmpSal&nbsp;&lt;=&nbsp;4000)</span></td></tr>
+<tr><td class="tcolnhit"> 0</td><td class="profile"></td><td class="profile_line"><a href="indexD1.html#ut3" name="ut2">32</a></td><td><span class="profile_descr">&nbsp;&nbsp;&nbsp;&nbsp;1: T &amp;&amp; T</span></td></tr>
+<tr><td class="profile"></td><td class="fcolnhit"> 0</td><td class="profile_line"><a href="indexD1.html#ut4" name="ut3">32</a></td><td><span class="profile_descr">&nbsp;&nbsp;&nbsp;&nbsp;2: T &amp;&amp; F</span></td></tr>
+<tr><td class="profile"></td><td class="profile"> 1</td><td class="profile_line">32</td><td><span class="profile_descr">&nbsp;&nbsp;&nbsp;&nbsp;3: F &amp;&amp; _</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">33</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">34</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;empdesgnation&nbsp;=&nbsp;EmpDesignations.Engineer;</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">35</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine($<span class="string">"The&nbsp;employee's&nbsp;designation&nbsp;is:{empdesgnation}"</span>);</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">36</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">37</td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">else</span></span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">38</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span></td></tr>
+<tr><td class="tcolnhit"> 0</td><td class="profile"> 1</td><td class="profile_line"><a href="indexD1.html#ut5" name="ut4">39</a></td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">if</span>&nbsp;(EmpSal&nbsp;&lt;=&nbsp;10)</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">40</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">41</td><td><span class="linenhit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine(<span class="string">"Emp&nbsp;sal&nbsp;cannot&nbsp;be&nbsp;less&nbsp;than&nbsp;10"</span>);</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">42</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">43</td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;empdesgnation2&nbsp;=&nbsp;EmpDesignations.Fresher;</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">44</td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine($<span class="string">"The&nbsp;employee's&nbsp;designation&nbsp;is:{empdesgnation}"</span>);</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">45</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">46</td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.ReadLine();</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">47</td><td><span class="lineplain"></span></td></tr>
+<tr><td class="profile"> 1</td><td class="profile"></td><td class="profile_line">48</td><td><a title="Function Employee::GetEmpDesignation()
+TER 56 % ( 5/9) structural, 77 % (10/13) statement"><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></a></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">49</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">50</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">public</span>&nbsp;<span class="keyword">class</span>&nbsp;Program</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">51</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;{</span></td></tr>
+<tr><td class="top" colspan="4"><a href="indexD1.html" title="C:\Dotcover_TestApplication\EmployeeMgmtSystem\EmployeeMgmtSystem\Program.cs">Top</a></td></tr>
+<tr><td class="profile"><a name="a2"></a>1</td><td class="profile"></td><td class="profile_line">52</td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">static</span>&nbsp;<span class="keyword">void</span>&nbsp;Main(string[]&nbsp;args)</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">53</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">54</td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;emp&nbsp;=&nbsp;<span class="keyword">new</span>&nbsp;Employee();</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">55</td><td><span class="linehit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;emp.GetEmpDesignation(1001);</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">56</td><td><span class="lineplain"></span></td></tr>
+<tr><td class="profile"> 1</td><td class="profile"></td><td class="profile_line">57</td><td><a title="Function Program::Main()
+TER 100 % ( 2/2) structural, 100 % (2/2) statement"><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</span></a></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">58</td><td><span class="lineplain">&nbsp;&nbsp;&nbsp;&nbsp;}</span></td></tr>
+<tr><td class="profile" colspan="2"></td><td class="profile_line">59</td><td><span class="lineplain">}</span></td></tr>
+</tbody>
+</table>
+<a name="ut5"></a>
+<span class="belowb">***TER</span><span class="belowb">64 % (7/11) of FILE Program.cs</span><br>
+<span class="terindent"></span><span class="belowb">80 % (12/15) statement</span><br><br>
+<span class="pages"><a href="indexF.html" target="_top">Directory Summary</a> | <a href="index.html" target="_top">Files Summary</a> | <a href="indexB1.html" target="_top">Functions Summary</a> | <a href="indexU.html" target="_top">Untested Code</a> | <a href="indexD1.html">Execution Profile</a><br>
+To files: <a href="indexD1.html">First</a> | Previous | <a href="indexD2.html">Next</a> | <a href="indexD5.html">Last</a> | <a href="indexD1.html">Top</a> | <a href="indexA.html#a1">Index</a> | <a href="indexD1.html" target="_top">No Index</a></span><br><br>
+</body>
+</html>

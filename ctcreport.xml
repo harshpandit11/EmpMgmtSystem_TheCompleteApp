@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<ctc_xml_report>
+
+	<header_info>
+		<ctcpost_version>9.0</ctcpost_version>
+		<copyright>Copyright (c) 1993-2013 Testwell Oy</copyright>
+		<copyright>Copyright (c) 2013-2018 Verifysoft Technology GmbH</copyright>
+		<license_notes>
+		</license_notes>
+		<symbolfiles>
+			<symbolfile>
+				<name>MON.sym</name>
+				<modified>Mon Apr  1 15:54:01 2019</modified>
+			</symbolfile>
+		</symbolfiles>
+		<datafiles>
+			<datafile>
+				<name>MON.dat</name>
+				<modified>Mon Apr  1 15:54:36 2019</modified>
+			</datafile>
+		</datafiles>
+		<chosen_source_files>
+		</chosen_source_files>
+		<unchosen_source_files>
+		</unchosen_source_files>
+		<report_generated>Mon Apr  1 15:54:44 2019</report_generated>
+		<requested_coverage_view>As instrumented</requested_coverage_view>
+		<ctcpost_options>MON.sym MON.dat -x ctcreport.xml</ctcpost_options>
+		<execution_cost_function>clock</execution_cost_function>
+		<execution_cost_type>Clock ticks</execution_cost_type>
+		<execution_cost_scaling>1</execution_cost_scaling>
+	</header_info>
+
+	<ctcpost_notices>
+	</ctcpost_notices>
+
+	<file name="C:\Dotcover_TestApplication\EmployeeMgmtSystem\EmployeeMgmtSystem\Properties\AssemblyInfo.cs">
+		<file_type>source</file_type>
+		<instrumentation_mode>multicondition</instrumentation_mode>
+		<instrumentation_timestamp>Mon Apr  1 15:54:01 2019</instrumentation_timestamp>
+		<instrumentation_fingerprint>0x8b8ab5d7</instrumentation_fingerprint>
+		<sym_rewrite_count>0</sym_rewrite_count>
+		<sym_update_count>0</sym_update_count>
+		<data_rewrite_count>0</data_rewrite_count>
+		<data_update_count>0</data_update_count>
+		<file_summary>
+			<functions>0</functions>
+			<lines>36</lines>
+			<ter>100</ter>
+			<hits>0</hits>
+			<all>0</all>
+			<statement_ter>100</statement_ter>
+			<statement_hits>0</statement_hits>
+			<statement_all>0</statement_all>
+			<statement_na_functions>0</statement_na_functions>
+		</file_summary>
+	</file>
+
+	<file name="C:\Dotcover_TestApplication\EmployeeMgmtSystem\EmployeeMgmtSystem\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs">
+		<file_type>source</file_type>
+		<instrumentation_mode>multicondition</instrumentation_mode>
+		<instrumentation_timestamp>Mon Apr  1 15:54:01 2019</instrumentation_timestamp>
+		<instrumentation_fingerprint>0x2ea193aa</instrumentation_fingerprint>
+		<sym_rewrite_count>0</sym_rewrite_count>
+		<sym_update_count>0</sym_update_count>
+		<data_rewrite_count>0</data_rewrite_count>
+		<data_update_count>0</data_update_count>
+		<file_summary>
+			<functions>0</functions>
+			<lines>1</lines>
+			<ter>100</ter>
+			<hits>0</hits>
+			<all>0</all>
+			<statement_ter>100</statement_ter>
+			<statement_hits>0</statement_hits>
+			<statement_all>0</statement_all>
+			<statement_na_functions>0</statement_na_functions>
+		</file_summary>
+	</file>
+
+	<file name="C:\Dotcover_TestApplication\EmployeeMgmtSystem\EmployeeMgmtSystem\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs">
+		<file_type>source</file_type>
+		<instrumentation_mode>multicondition</instrumentation_mode>
+		<instrumentation_timestamp>Mon Apr  1 15:54:01 2019</instrumentation_timestamp>
+		<instrumentation_fingerprint>0x2ea193aa</instrumentation_fingerprint>
+		<sym_rewrite_count>0</sym_rewrite_count>
+		<sym_update_count>0</sym_update_count>
+		<data_rewrite_count>0</data_rewrite_count>
+		<data_update_count>0</data_update_count>
+		<file_summary>
+			<functions>0</functions>
+			<lines>1</lines>
+			<ter>100</ter>
+			<hits>0</hits>
+			<all>0</all>
+			<statement_ter>100</statement_ter>
+			<statement_hits>0</statement_hits>
+			<statement_all>0</statement_all>
+			<statement_na_functions>0</statement_na_functions>
+		</file_summary>
+	</file>
+
+	<file name="C:\Dotcover_TestApplication\EmployeeMgmtSystem\EmployeeMgmtSystem\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs">
+		<file_type>source</file_type>
+		<instrumentation_mode>multicondition</instrumentation_mode>
+		<instrumentation_timestamp>Mon Apr  1 15:54:01 2019</instrumentation_timestamp>
+		<instrumentation_fingerprint>0x2ea193aa</instrumentation_fingerprint>
+		<sym_rewrite_count>0</sym_rewrite_count>
+		<sym_update_count>0</sym_update_count>
+		<data_rewrite_count>0</data_rewrite_count>
+		<data_update_count>0</data_update_count>
+		<file_summary>
+			<functions>0</functions>
+			<lines>1</lines>
+			<ter>100</ter>
+			<hits>0</hits>
+			<all>0</all>
+			<statement_ter>100</statement_ter>
+			<statement_hits>0</statement_hits>
+			<statement_all>0</statement_all>
+			<statement_na_functions>0</statement_na_functions>
+		</file_summary>
+	</file>
+
+	<file name="C:\Dotcover_TestApplication\EmployeeMgmtSystem\EmployeeMgmtSystem\Program.cs">
+		<file_type>source</file_type>
+		<instrumentation_mode>multicondition</instrumentation_mode>
+		<instrumentation_timestamp>Mon Apr  1 15:54:01 2019</instrumentation_timestamp>
+		<instrumentation_fingerprint>0xef21b7d0</instrumentation_fingerprint>
+		<sym_rewrite_count>0</sym_rewrite_count>
+		<sym_update_count>0</sym_update_count>
+		<data_rewrite_count>0</data_rewrite_count>
+		<data_update_count>0</data_update_count>
+		<function name="Employee::GetEmpDesignation">
+			<parameters>( double EmpSal )</parameters>
+			<defined_at_line>25</defined_at_line>
+			<call_count>1</call_count>
+			<total_execution_cost></total_execution_cost>
+			<average_execution_cost></average_execution_cost>
+			<max_execution_cost></max_execution_cost>
+			<body>
+				<probe type="function" count1="1"
+				   line="25" sc_count="0" nesting="0" descr="FUNCTION Employee::GetEmpDesignation()" />
+				<probe type="if" count1="0" count2="1" alarmed="1"
+				   line="32" sc_count="5" nesting="1" descr="if (EmpSal &gt;= 2000 &amp;&amp; EmpSal &lt;= 4000)" />
+				<probe type="multi_cond_t" count1="0" alarmed="1"
+				   line="32" sc_count="5" nesting="1" eval_no="1" descr="T &amp;&amp; T" />
+				<probe type="multi_cond_f" count2="0" alarmed="1"
+				   line="32" sc_count="5" nesting="1" eval_no="2" descr="T &amp;&amp; F" />
+				<probe type="multi_cond_f" count2="1"
+				   line="32" sc_count="5" nesting="1" eval_no="3" descr="F &amp;&amp; _" />
+				<probe type="block_end"
+				   line="36" sc_count="7" nesting="1" exepassed="1" descr="}" />
+				<probe type="else"
+				   line="37" sc_count="7" nesting="1" descr="else" />
+				<probe type="if" count1="0" count2="1" alarmed="1"
+				   line="39" sc_count="7" nesting="2" descr="if (EmpSal &lt;= 10)" />
+				<probe type="block_end"
+				   line="42" sc_count="8" nesting="2" exepassed="1" descr="}" />
+				<probe type="block_end"
+				   line="45" sc_count="10" nesting="1" exepassed="1" descr="}" />
+				<probe type="function_end" count1="1"
+				   line="48" sc_count="11" nesting="0" descr="}" />
+			</body>
+			<function_summary>
+				<ter>56</ter>
+				<hits>5</hits>
+				<all>9</all>
+				<statement_ter>77</statement_ter>
+				<statement_hits>10</statement_hits>
+				<statement_all>13</statement_all>
+				<statement_available>yes</statement_available>
+			</function_summary>
+		</function>
+		<function name="Program::Main">
+			<parameters>( string [ ] args )</parameters>
+			<defined_at_line>52</defined_at_line>
+			<call_count>1</call_count>
+			<total_execution_cost></total_execution_cost>
+			<average_execution_cost></average_execution_cost>
+			<max_execution_cost></max_execution_cost>
+			<body>
+				<probe type="function" count1="1"
+				   line="52" sc_count="0" nesting="0" descr="FUNCTION Program::Main()" />
+				<probe type="function_end" count1="1"
+				   line="57" sc_count="2" nesting="0" descr="}" />
+			</body>
+			<function_summary>
+				<ter>100</ter>
+				<hits>2</hits>
+				<all>2</all>
+				<statement_ter>100</statement_ter>
+				<statement_hits>2</statement_hits>
+				<statement_all>2</statement_all>
+				<statement_available>yes</statement_available>
+			</function_summary>
+		</function>
+		<file_summary>
+			<functions>2</functions>
+			<lines>59</lines>
+			<ter>64</ter>
+			<hits>7</hits>
+			<all>11</all>
+			<statement_ter>80</statement_ter>
+			<statement_hits>12</statement_hits>
+			<statement_all>15</statement_all>
+			<statement_na_functions>0</statement_na_functions>
+		</file_summary>
+	</file>
+
+	<overall_summary>
+		<shown_coverage_views>multicondition</shown_coverage_views>
+		<files>5</files>
+		<headers>0</headers>
+		<functions>2</functions>
+		<lines>98</lines>
+		<ter>64</ter>
+		<hits>7</hits>
+		<all>11</all>
+		<statement_ter>80</statement_ter>
+		<statement_hits>12</statement_hits>
+		<statement_all>15</statement_all>
+		<statement_na_functions>0</statement_na_functions>
+	</overall_summary>
+
+</ctc_xml_report>

@@ -1,0 +1,114 @@
+*****************************************************************************
+*           CTC++, Test Coverage Analyzer for C/C++, Version 9.0            *
+*                                                                           *
+*                         EXECUTION PROFILE LISTING                         *
+*                                                                           *
+*                    Copyright (c) 1993-2013 Testwell Oy                    *
+*             Copyright (c) 2013-2018 Verifysoft Technology GmbH            *
+*****************************************************************************
+
+
+Symbol file(s) used   : MON.sym (Mon Apr  1 15:54:01 2019)
+Data file(s) used     : MON.dat (Mon Apr  1 15:54:36 2019)
+Listing produced at   : Mon Apr  1 15:55:36 2019
+Coverage view         : As instrumented
+
+
+
+MONITORED SOURCE FILE : C:\Dotcover_TestApplication\EmployeeMgmtSystem\EmployeeMgmtSystem\Properties\AssemblyInfo.cs
+INSTRUMENTATION MODE  : multicondition
+
+ HITS/TRUE      FALSE    LINE DESCRIPTION
+=============================================================================
+
+
+***TER 100 % (  0/  0) of FILE C:\Dotcover_TestApplication\EmployeeMgmtSystem\EmployeeMgmtSystem\Properties\AssemblyInfo.cs
+       100 % (  0/  0) statement
+-----------------------------------------------------------------------------
+
+
+
+MONITORED SOURCE FILE : C:\Dotcover_TestApplication\EmployeeMgmtSystem\EmployeeMgmtSystem\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+INSTRUMENTATION MODE  : multicondition
+
+ HITS/TRUE      FALSE    LINE DESCRIPTION
+=============================================================================
+
+
+***TER 100 % (  0/  0) of FILE C:\Dotcover_TestApplication\EmployeeMgmtSystem\EmployeeMgmtSystem\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+       100 % (  0/  0) statement
+-----------------------------------------------------------------------------
+
+
+
+MONITORED SOURCE FILE : C:\Dotcover_TestApplication\EmployeeMgmtSystem\EmployeeMgmtSystem\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+INSTRUMENTATION MODE  : multicondition
+
+ HITS/TRUE      FALSE    LINE DESCRIPTION
+=============================================================================
+
+
+***TER 100 % (  0/  0) of FILE C:\Dotcover_TestApplication\EmployeeMgmtSystem\EmployeeMgmtSystem\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+       100 % (  0/  0) statement
+-----------------------------------------------------------------------------
+
+
+
+MONITORED SOURCE FILE : C:\Dotcover_TestApplication\EmployeeMgmtSystem\EmployeeMgmtSystem\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+INSTRUMENTATION MODE  : multicondition
+
+ HITS/TRUE      FALSE    LINE DESCRIPTION
+=============================================================================
+
+
+***TER 100 % (  0/  0) of FILE C:\Dotcover_TestApplication\EmployeeMgmtSystem\EmployeeMgmtSystem\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+       100 % (  0/  0) statement
+-----------------------------------------------------------------------------
+
+
+
+MONITORED SOURCE FILE : C:\Dotcover_TestApplication\EmployeeMgmtSystem\EmployeeMgmtSystem\Program.cs
+INSTRUMENTATION MODE  : multicondition
+
+ HITS/TRUE      FALSE    LINE DESCRIPTION
+=============================================================================
+
+         1                 25 FUNCTION Employee::GetEmpDesignation()
+         0          1 -    32   if (EmpSal >= 2000 && EmpSal <= 4000)
+         0            -    32     1: T && T
+                    0 -    32     2: T && F
+                    1      32     3: F && _
+                           36   }+
+                           37   else
+         0          1 -    39     if (EmpSal <= 10)
+                           42     }+
+                           45   }+
+         1                 48 }
+
+***TER  56 % (  5/  9) of FUNCTION Employee::GetEmpDesignation()
+        77 % ( 10/ 13) statement
+-----------------------------------------------------------------------------
+
+         1                 52 FUNCTION Program::Main()
+         1                 57 }
+
+***TER 100 % (  2/  2) of FUNCTION Program::Main()
+       100 % (  2/  2) statement
+-----------------------------------------------------------------------------
+
+
+***TER  64 % (  7/ 11) of FILE C:\Dotcover_TestApplication\EmployeeMgmtSystem\EmployeeMgmtSystem\Program.cs
+        80 % ( 12/ 15) statement
+-----------------------------------------------------------------------------
+
+
+
+SUMMARY
+=======
+
+Source files       : 5
+Headers extracted  : 0
+Functions          : 2
+Source lines       : 98
+TER                : 64 % (7/11) multicondition
+TER                : 80 % (12/15) statement
